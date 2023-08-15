@@ -288,7 +288,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 950px;
+  height: 100vh;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -302,6 +302,26 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+}
+
+#myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.video-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.video-content h4,
+.video-content h1,
+.video-content h4 {
+  margin: 0;
 }
 
 #hero .container {
