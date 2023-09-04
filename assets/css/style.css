@@ -708,6 +708,10 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
+.contact .section-title {
+  margin-bottom: -30px;
+}
+
 .contact .info-wrap {
   padding: 30px;
   background: #fff;
