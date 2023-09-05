@@ -317,6 +317,7 @@ h6 {
   text-align: center;
   padding: 50px 50px 50px 50px;
   background: #0000008c;
+  box-shadow: #2f2c2b;
 }
 
 .video-content h1 {
@@ -333,8 +334,9 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
   color: #fff;
 }
 
@@ -350,6 +352,8 @@ h6 {
 
 #hero h4 {
   color: rgba(255,255,255,0.8);
+  font-weight: 300;
+  font-style:oblique;
 }
 
 #hero .btn-get-started {
@@ -628,10 +632,11 @@ section {
 
 .portfolio .portfolio-item .portfolio-info h4 a {
   color: #F2CD5C;
+  font-weight: 600;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #F2CD5C;
+  color: #d0a935;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
@@ -652,6 +657,8 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 0;
+  background:#2f2c2b;
+  height: 85vh;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -666,7 +673,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #2f2c2b;
   opacity: 1;
   border: 1px solid #F2CD5C;
 }
@@ -677,6 +684,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
+  background: #2f2c2b;
   box-shadow: 0px 0 30px rgba(56, 64, 70, 0.08);
 }
 
@@ -695,7 +703,7 @@ section {
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
-  box-shadow: #000000d9 10px 10px;
+  box-shadow: #2f2c2b 10px 10px;
 }
 
 .portfolio-details .portfolio-description {
@@ -863,6 +871,7 @@ section {
 .breadcrumbs {
   padding: 40px 0;
   margin-top: 70px;
+  background: #2f2c2b;
 }
 
 .breadcrumbs h2 {
@@ -885,7 +894,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4f5a62;
+  color:#2f2c2b;
   content: "/";
 }
 
