@@ -68,8 +68,12 @@ h6 {
   box-shadow: 0px 1px 0px #000;
 }
 
+#header {
+  display: inline;
+}
+
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 30px;
   margin: 0;
   letter-spacing: 1px;
   color: #FFD95A;
@@ -79,6 +83,7 @@ h6 {
 #header .logo h1 a:hover {
   color: #F2CD5C;
   text-decoration: none;
+  font-weight:100;
 }
 
 #header .logo img {
@@ -452,12 +457,20 @@ section {
   align-items:center;
 }
 
+.services .section-title p {
+  font-weight: 100;
+  width: 75%;
+  margin-bottom: 20px;
+  margin-left: 12.5%;
+}
+
 .services .icon-box {
   padding: 30px;
   border-radius: 6px;
   background: #000;
   box-shadow: 0px 2px 22px #1d1c1c;
   transition: ease-in-out 0.3s;
+  margin-bottom: 20px;
 }
 
 .services .icon-box i {
@@ -725,7 +738,40 @@ section {
 
 .contact .section-title {
   margin-bottom: -30px;
+  font-weight: 100;
 }
+
+.contact .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  color: #F2CD5C;
+  margin-bottom: 20px;
+}
+
+.contact .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+  color: #FFD95A;
+}
+
+.contact .btn:hover {
+  opacity: 0.8;
+  color: #F2CD5C;
+}
+
+.contact .btn-label {
+  margin-top: 10px;
+  color: #FFD95A;
+  font-weight: 100;
+}
+
 
 .contact .info-wrap {
   background: #000000;
