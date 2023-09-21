@@ -8,7 +8,7 @@
     return document.querySelector(selector);
   };
 
-  /**
+  /** 
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
@@ -205,51 +205,22 @@ if (selectHeader) {
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
-
+  
   /**
-   * Portfolio details slider
+   * Slider arrows
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+  
+  var swiper = new Swiper('.portfolio-details-slider', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
     pagination: {
       el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      clickable: true,
     },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
   });
 
   /**
